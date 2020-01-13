@@ -21,12 +21,13 @@ body {
 	margin-left: auto;
 }
 
-h1 > img {
+.skill-container > img {
 	border-radius: 50%;
 }
 
 .skill-list {
 	list-style: none;
+	padding: 0;
 }
 
 .skill-list li {
@@ -36,7 +37,7 @@ h1 > img {
 }
 
 .skill-html {
-	border: #cc0000;
+	border: #cc0000 solid 2px;
 }
 
 .skill-css {
