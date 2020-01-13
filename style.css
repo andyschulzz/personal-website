@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	background: #eee;
+}
+
+.nav-main {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.nav-main a {
+	margin: 20px;
+	text-decoration: none;
+}
+
+.nav-main a:last-child {
+	margin-left: auto;
+}
+
+h1 > img {
+	border-radius: 50%;
+}
+
+.skill-list {
+	list-style: none;
+}
+
+.skill-list > li {
+	border: 1px solid;
+	display: inline-block;
+	margin: 0 1px;
+	padding: 5px;
+}
+
+.skill-html {
+	border: #ff0000;
+}
+
+.skill-css {
+	border: #0000ff;
+}
+
+.skill-bootstrap {
+	border: #7f00ff;
+}
+
+.skill-js {
+	border: #ffff00;
+}
+
+.skill-vsc {
+	border: #0000ff;
+}
+
+.skill-more {
+	border: ##00ffff;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+.card {
+	flex: 0 0 200px;
+	margin: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.card img {
+	max-width: 100%;
+	border-radius: 50%;
+	padding: 10px;
+}
+.card p,
+.card h3 {
+	padding: 0 20px 20px;
+}
+.card button {
+	background: gray;
+	border: 0;
+	color: white;
+	padding: 10px;
+	width: 30%;
+}
