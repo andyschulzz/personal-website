@@ -9,6 +9,7 @@ body {
 	display: grid;
 	gap: 10px;
 	grid-template-rows: 48px auto 48px;
+	font-family: "Roboto", sans-serif;
 }
 
 h1,
