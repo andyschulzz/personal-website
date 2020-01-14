@@ -3,12 +3,11 @@
 }
 
 body {
-	margin: 0 auto;
+	margin: 20px auto 150px;
 	background: #fff;
-	width: 100vh;
+	max-width: 600px;
 	display: grid;
-	gap: 10px;
-	grid-template-rows: 48px auto 48px;
+	gap: 48px;
 	font-family: "Roboto", sans-serif;
 }
 
@@ -125,8 +124,8 @@ li {
 .card {
 	display: flex;
 	flex-direction: column;
-	flex: 0 0 100%;
-	margin: 12px 20px;
+	flex: 0 0 90%;
+	margin: 20px auto;
 	border: 1px solid #ccc;
 	box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
 }
@@ -134,14 +133,14 @@ li {
 .card img {
 	max-width: 75%;
 	border-radius: 50%;
-	padding: 100px;
-	margin: 0 auto;
+	padding: 50px;
+	margin: auto;
 }
 
 @media (min-width: 500px) {
 	.card {
 		flex: 0 0 30%;
-		margin: 8px auto;
+		margin: 48px auto;
 	}
 
 	.card img {
