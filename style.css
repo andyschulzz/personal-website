@@ -160,9 +160,16 @@ li {
 }
 .card button {
 	border: solid 1px;
-	border-radius: 15%;
-	margin: 15px auto 15px 15px;
+	border-radius: 10px;
+	margin: 15px 15px 15px 15px;
 	padding: 8px;
+}
+
+@media (min-width: 500px) {
+	.card button {
+		border-radius: 10px;
+		margin: 15px auto 15px 15px;
+	}
 }
 
 .about-container {
