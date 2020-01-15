@@ -1,12 +1,12 @@
-* {
-  box-sizing: border-box; }
-
 :root {
   --gelb: #cccc00; }
 
+* {
+  box-sizing: border-box; }
+
 body {
   display: grid;
-  gap: 48px;
+  gap: 60px;
   max-width: 600px;
   margin: 20px auto 150px;
   background: #fff;
@@ -46,7 +46,7 @@ a:link {
 
 main {
   display: grid;
-  gap: 48px; }
+  gap: 60px; }
 
 .nav-main {
   display: flex; }
@@ -58,13 +58,15 @@ main {
 .nav-main a:last-child {
   margin-left: auto; }
 
-skill-container {
+.skill-container {
   margin: 0 auto;
   display: grid;
-  justify-items: center; }
+  justify-items: center;
+  gap: 48px; }
 
-.skill-container img {
-  border-radius: 50%; }
+.user-img {
+  border-radius: 50%;
+  align-self: center; }
 
 .skill-list {
   display: flex;

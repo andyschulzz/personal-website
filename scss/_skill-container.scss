@@ -1,11 +1,13 @@
-skill-container {
+.skill-container {
 	margin: 0 auto;
 	display: grid;
 	justify-items: center;
+	gap: 48px;
 }
 
-.skill-container img {
+.user-img {
 	border-radius: 50%;
+	align-self: center;
 }
 
 .skill-list {

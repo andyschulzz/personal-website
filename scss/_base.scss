@@ -2,13 +2,9 @@
 	box-sizing: border-box;
 }
 
-:root {
-	--gelb: #cccc00;
-}
-
 body {
 	display: grid;
-	gap: 48px;
+	gap: 60px;
 	max-width: 600px;
 	margin: 20px auto 150px;
 	background: #fff;
@@ -56,5 +52,5 @@ a:link {
 
 main {
 	display: grid;
-	gap: 48px;
+	gap: 60px;
 }
