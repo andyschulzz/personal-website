@@ -20,20 +20,20 @@
 
 .skill-list li {
 	margin: 3px 2px;
-	padding: 5px 12px;
-	border-radius: 5px;
+	padding: 1px 12px;
+	border-radius: 10px;
 }
 
 .skill-html {
-	border: #cc0000 solid 1px;
+	border: var(--rot) solid 1px;
 }
 
 .skill-css {
-	border: #0000cc solid 1px;
+	border: var(--blau) solid 1px;
 }
 
 .skill-bootstrap {
-	border: #6600cc solid 1px;
+	border: var(--lila) solid 1px;
 }
 
 .skill-js {
@@ -41,9 +41,9 @@
 }
 
 .skill-vsc {
-	border: #0000cc solid 1px;
+	border: var(--blau) solid 1px;
 }
 
 .skill-more {
-	border: #00cccc solid 1px;
+	border: var(--turquoise) solid 1px;
 }

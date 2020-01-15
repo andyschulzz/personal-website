@@ -1,7 +1,8 @@
 .about-container {
-	display: flex;
+	display: grid;
 	flex-wrap: wrap;
 	flex-direction: column;
+	padding: 0 20px;
 }
 
 .about-list {
@@ -9,17 +10,10 @@
 	padding: 0;
 	font-weight: 100;
 	font-size: 1rem;
-	align-self: flex-start;
 }
 
 @media (min-width: 500px) {
 	.about-container {
 		flex-wrap: nowrap;
-	}
-}
-
-@media (min-width: 500px) {
-	.about-list {
-		margin-left: 40px;
 	}
 }
