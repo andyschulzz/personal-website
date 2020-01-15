@@ -1,0 +1,12 @@
+.nav-main {
+	display: flex;
+}
+
+.nav-main a {
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+.nav-main a:last-child {
+	margin-left: auto;
+}

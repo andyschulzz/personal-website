@@ -1,0 +1,47 @@
+skill-container {
+	margin: 0 auto;
+	display: grid;
+	justify-items: center;
+}
+
+.skill-container img {
+	border-radius: 50%;
+}
+
+.skill-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	justify-content: center;
+}
+
+.skill-list li {
+	margin: 3px 2px;
+	padding: 5px 12px;
+	border-radius: 5px;
+}
+
+.skill-html {
+	border: #cc0000 solid 1px;
+}
+
+.skill-css {
+	border: #0000cc solid 1px;
+}
+
+.skill-bootstrap {
+	border: #6600cc solid 1px;
+}
+
+.skill-js {
+	border: var(--gelb) solid 1px;
+}
+
+.skill-vsc {
+	border: #0000cc solid 1px;
+}
+
+.skill-more {
+	border: #00cccc solid 1px;
+}
