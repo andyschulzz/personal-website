@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--gelb: #cccc00;
+}
+
 body {
 	display: grid;
 	gap: 48px;
@@ -18,7 +22,22 @@ h1,
 h2,
 h3 {
 	margin: 0px;
-	padding: 0px;
+}
+
+h1 {
+	font-size: 2.2rem;
+	font-weight: 100;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+h1 span {
+	font-size: 1.2rem;
+	display: block;
 }
 
 p {
@@ -35,13 +54,21 @@ a:link {
 	color: #000;
 }
 
+main {
+	display: grid;
+	gap: 48px;
+}
+
+.def-margin {
+	margin-bottom: 48px;
+}
+
 .nav-main {
 	display: flex;
-	justify-content: flex-start;
 }
 
 .nav-main a {
-	margin: 20px;
+	margin-right: 20px;
 	text-decoration: none;
 }
 
@@ -49,33 +76,13 @@ a:link {
 	margin-left: auto;
 }
 .skill-container {
-	margin: 0 auto 48px;
+	margin: 0 auto;
 	display: grid;
-	grid-template-rows: auto;
 	justify-items: center;
 }
 
 .skill-container img {
 	border-radius: 50%;
-	margin-bottom: 48px;
-}
-
-.skill-heading {
-	margin-bottom: 48px;
-}
-
-.skill-heading h1 {
-	font-size: 2.2rem;
-	font-weight: 100;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-
-.skill-heading h2 {
-	font-size: 1.5rem;
-	font-weight: 100;
-	padding: 0;
 }
 
 .skill-list {
@@ -105,7 +112,7 @@ a:link {
 }
 
 .skill-js {
-	border: #cccc00 solid 1px;
+	border: var(--gelb) solid 1px;
 }
 
 .skill-vsc {
@@ -120,7 +127,7 @@ a:link {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
-	margin: 0 auto 48px;
+	margin: 0 auto;
 }
 .card {
 	display: flex;
@@ -185,10 +192,8 @@ a:link {
 
 .about-container {
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
-	margin: 0 0 48px 20px;
-	align-items: center;
+	flex-direction: column;
 }
 
 .about-list {
@@ -196,12 +201,7 @@ a:link {
 	padding: 0;
 	font-weight: 100;
 	font-size: 1rem;
-}
-
-.about-container article {
-	margin: 0 auto;
-	padding: 0;
-	max-width: 350px;
+	align-self: center;
 }
 
 @media (min-width: 500px) {
@@ -218,16 +218,10 @@ a:link {
 
 .social-container {
 	display: flex;
-	justify-content: space-evenly;
+	justify-items: space-around;
 	flex-wrap: wrap;
-	margin: 0 auto 48px;
-	max-width: 90%;
-}
-
-@media (min-width: 500px) {
-	.social-container {
-		max-width: 100%;
-	}
+	margin: 0 auto;
+	max-width: 100%;
 }
 
 .social-container img {
