@@ -70,6 +70,7 @@ li {
 	font-weight: 100;
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 
 .skill-heading h2 {
@@ -86,32 +87,33 @@ li {
 }
 
 .skill-list li {
-	margin: 3px 1px;
-	padding: 4px;
+	margin: 3px 2px;
+	padding: 5px 12px;
+	border-radius: 5px;
 }
 
 .skill-html {
-	border: #cc0000 solid 2px;
+	border: #cc0000 solid 1px;
 }
 
 .skill-css {
-	border: #0000cc solid 2px;
+	border: #0000cc solid 1px;
 }
 
 .skill-bootstrap {
-	border: #6600cc solid 2px;
+	border: #6600cc solid 1px;
 }
 
 .skill-js {
-	border: #cccc00 solid 2px;
+	border: #cccc00 solid 1px;
 }
 
 .skill-vsc {
-	border: #0000cc solid 2px;
+	border: #0000cc solid 1px;
 }
 
 .skill-more {
-	border: #00cccc solid 2px;
+	border: #00cccc solid 1px;
 }
 
 .card-container {
@@ -143,8 +145,8 @@ li {
 	}
 
 	.card img {
-		padding: 15px;
-		margin: 0 auto;
+		padding: 0;
+		margin: 20px auto;
 	}
 }
 
@@ -170,6 +172,15 @@ li {
 		border-radius: 10px;
 		margin: 15px auto 15px 15px;
 	}
+}
+
+.card-btn a {
+	text-decoration: none;
+}
+
+.card-btn:hover,
+.card-btn:active {
+	background-color: #aaaaaa;
 }
 
 .about-container {
@@ -215,6 +226,7 @@ li {
 	display: flex;
 	flex-direction: row;
 	margin: 0 auto;
+	font-weight: 100;
 }
 
 .footer-main a {
