@@ -29,19 +29,22 @@ h3 {
 
 h1 {
   font-size: 2.2rem;
-  font-weight: 100;
+  font-weight: 400;
   text-align: center; }
 
 h2 {
   font-size: 1.5rem;
-  font-weight: 100; }
+  font-weight: 300; }
+
+h3 {
+  font-weight: 300; }
 
 h1 span {
   font-size: 1.2rem;
-  display: block; }
+  display: block;
+  font-weight: 300; }
 
 p {
-  font-weight: 100;
   font-size: 1rem; }
 
 li {
@@ -85,7 +88,7 @@ main {
 .skill-list li {
   margin: 3px 2px;
   padding: 1px 12px;
-  border-radius: 10px; }
+  border-radius: 12px; }
 
 .skill-html {
   border: var(--rot) solid 1px; }
@@ -189,13 +192,16 @@ main {
 
 .footer-main {
   display: flex;
+  flex-wrap: wrap;
   font-weight: 100;
-  justify-content: space-evenly;
-  text-align: center; }
+  justify-content: space-evenly; }
 
 .footer-main a {
-  margin: 0;
   text-decoration: none; }
+
+.footer-main .fas {
+  margin: 0 10px;
+  font-size: 1.3rem; }
 
 
 /*# sourceMappingURL=/style.a6dae8f7.css.map */
