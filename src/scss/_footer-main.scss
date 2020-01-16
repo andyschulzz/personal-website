@@ -1,11 +1,17 @@
 .footer-main {
 	display: flex;
+	flex-wrap: wrap;
 	font-weight: 100;
 	justify-content: space-evenly;
 }
 
 .footer-main a {
 	text-decoration: none;
+}
+
+.footer-main .fas {
+	margin: 0 10px;
+	font-size: 1.3rem;
 }
 
 // @media (min-width: 500px) {
