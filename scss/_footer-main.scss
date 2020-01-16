@@ -1,17 +1,17 @@
 .footer-main {
 	display: flex;
 	flex-direction: row;
-	margin: 0 auto;
 	font-weight: 100;
+	justify-content: center;
 }
 
 .footer-main a {
-	margin: 0 10px;
+	margin: 0;
 	text-decoration: none;
 }
 
-@media (min-width: 500px) {
-	.footer-main a {
-		margin: 0 52px;
-	}
-}
+// @media (min-width: 500px) {
+// 	.footer-main a {
+// 		margin: 0 52px;
+// 	}
+// }
