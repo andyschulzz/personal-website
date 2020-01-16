@@ -11,6 +11,19 @@
 	font-size: 1rem;
 }
 
+.about-list--highlight {
+	display: inline;
+	background: var(--grau);
+	border: var(--grau) solid 1px;
+	border-radius: 8px;
+	padding: 0 4px;
+	color: #fff;
+}
+
+.bg-dark {
+	background: var(--dgrau);
+}
+
 @media (min-width: 500px) {
 	.about-container {
 		flex-wrap: nowrap;
