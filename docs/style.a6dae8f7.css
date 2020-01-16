@@ -191,10 +191,10 @@ main {
   height: 40px; }
 
 .footer-main {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   font-weight: 100;
-  justify-content: space-evenly; }
+  justify-items: center;
+  gap: 10px; }
 
 .footer-main a {
   text-decoration: none; }
