@@ -124,6 +124,9 @@ main {
   padding: 0 4px;
   color: #fff; }
 
+.about-list li {
+  margin-bottom: 16px; }
+
 .bg-dark {
   background: var(--dgrau); }
 
