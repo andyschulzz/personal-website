@@ -111,8 +111,8 @@ main {
   flex-direction: column; }
 
 .about-list {
-  margin: 0;
   padding: 0;
+  margin-bottom: 0;
   font-weight: 100;
   font-size: 1rem; }
 
@@ -126,6 +126,9 @@ main {
 
 .about-list li {
   margin-bottom: 16px; }
+
+.about-list li:last-child {
+  margin: 0; }
 
 .bg-dark {
   background: var(--dgrau); }
@@ -186,17 +189,13 @@ main {
 
 .footer-main {
   display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-  font-weight: 100; }
+  font-weight: 100;
+  justify-content: space-evenly;
+  text-align: center; }
 
 .footer-main a {
-  margin: 0 10px;
+  margin: 0;
   text-decoration: none; }
-
-@media (min-width: 500px) {
-  .footer-main a {
-    margin: 0 52px; } }
 
 
 /*# sourceMappingURL=/style.a6dae8f7.css.map */
