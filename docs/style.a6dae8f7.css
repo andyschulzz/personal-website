@@ -59,14 +59,11 @@ main {
   gap: 60px; }
 
 .nav-main {
-  display: flex; }
+  display: flex;
+  justify-content: space-evenly; }
 
 .nav-main a {
-  margin-right: 20px;
   text-decoration: none; }
-
-.nav-main a:last-child {
-  margin-left: auto; }
 
 .skill-container {
   margin: 0 auto;
