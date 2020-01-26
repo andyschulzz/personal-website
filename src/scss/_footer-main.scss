@@ -1,61 +1,61 @@
 .footer-main {
   position: relative;
+}
 
-  form {
-    display: grid;
-    justify-content: stretch;
-    grid-auto-flow: column;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    gap: 1px;
-  }
+footer form {
+  display: grid;
+  justify-content: stretch;
+  grid-auto-flow: column;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  gap: 1px;
+}
 
-  input {
+footer input {
+  display: none;
+}
+
+footer label {
+  padding: 10px 6px;
+  flex: 1 1 auto;
+  text-align: center;
+  transition: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: #fff 1px solid;
+
+  > * {
     display: none;
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 100%;
+    padding: 20px 14px;
+    text-align: initial;
   }
+}
 
-  label {
-    padding: 10px 6px;
-    flex: 1 1 auto;
+input:checked + label {
+  border: #e2e2e2 1px solid;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom: none;
+  background: #fcfcfc;
+
+  > * {
+    margin-top: -2px;
+    display: initial;
     text-align: center;
-    transition: none;
-    font-size: 1.1rem;
-    cursor: pointer;
-    border: #fff 1px solid;
-
-    > * {
-      display: none;
-      border-radius: 2px;
-      position: absolute;
-      right: 0;
-      left: 0;
-      top: 100%;
-      padding: 20px 14px;
-      text-align: initial;
-    }
   }
+}
 
-  input:checked + label {
-    border: #e2e2e2 1px solid;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom: none;
-    background: #fcfcfc;
-
-    > * {
-      margin-top: -2px;
-      display: initial;
-      text-align: center;
-    }
-  }
-
-  label:hover {
-    border: #f1f1f1 1px solid;
-    border-bottom: #e2e2e2 1px solid;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    margin: 0;
-  }
+label:hover {
+  border: #f1f1f1 1px solid;
+  border-bottom: #e2e2e2 1px solid;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin: 0;
 }
 
 .footer-main a {
