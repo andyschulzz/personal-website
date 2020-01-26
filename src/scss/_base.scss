@@ -1,61 +1,61 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	display: grid;
-	gap: 60px;
-	max-width: 600px;
-	margin: 20px auto 150px;
-	padding: 0 20px;
-	background: #fff;
-	font-family: "Roboto", sans-serif;
-	font-size: 1.2rem;
-	font-weight: 300;
-	line-height: 1.5;
+  display: grid;
+  gap: 60px;
+  max-width: 600px;
+  margin: 20px auto 150px;
+  padding: 0 20px;
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 h1,
 h2,
 h3 {
-	margin: 0px;
+  margin: 0px;
 }
 
 h1 {
-	font-size: 2.2rem;
-	font-weight: 400;
-	text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 h2 {
-	font-size: 1.5rem;
-	font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 h3 {
-	font-weight: 300;
+  font-weight: 300;
 }
 
 h1 span {
-	font-size: 1.2rem;
-	display: block;
-	font-weight: 300;
+  font-size: 1.2rem;
+  display: block;
+  font-weight: 300;
 }
 
 p {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 li {
-	list-style: none;
-	padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 a:link {
-	color: #000;
+  color: #000;
 }
 
 main {
-	display: grid;
-	gap: 60px;
+  display: grid;
+  gap: 60px;
 }

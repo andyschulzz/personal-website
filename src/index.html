@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Andys Website</title>
+    <link rel="stylesheet" href="scss/style.scss" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c7f9721739.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/main.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav-main">
+        <a href="#aboutme">About</a>
+        <a href="#projects">Referenzen</a>
+        <a href="#contactme">Kontakt</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="skill-container">
+        <h1>Andy Schulz <span>neue fische Web Developer</span></h1>
+        <img class="user-img" src="img/logoich.png" alt="" />
+        <ul class="skill-list">
+          <li class="skill-html">HTML</li>
+          <li class="skill-css">CSS</li>
+          <li class="skill-bootstrap">Bootstrap</li>
+          <li class="skill-js">JavaScript</li>
+          <li class="skill-vsc">Visual Studio Code</li>
+          <li class="skill-more">and more</li>
+        </ul>
+      </section>
+
+      <div id="projects" class="card-container">
+        <section class="card">
+          <img src="img/github2.png" alt="" class="card__img" />
+          <div class="card__content">
+            <h3 class="card__title">GitHub</h3>
+            <p>
+              Eine Übersicht über meinen veröffentlichten Code bei GitHub.
+            </p>
+            <a
+              class="card__btn"
+              href="http://www.github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Mehr</a
+            >
+          </div>
+        </section>
+
+        <section class="card">
+          <img src="img/codepen.png" alt="" class="card__img" />
+          <div class="card__content">
+            <h3 class="card__heading">Code Pen</h3>
+            <p>
+              Verschaffen Sie sich Einblick über meine Referenzen bei Code Pen.
+            </p>
+            <a
+              class="card__btn"
+              href="http://www.codepen.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Mehr</a
+            >
+          </div>
+        </section>
+
+        <section class="card">
+          <img src="img/neuefische2.png" alt="" class="card__img" />
+          <div class="card__content">
+            <h3 class="card__heading">neuefische</h3>
+            <p>
+              In nur 12 Wochen Web Developer werden? Das geht! Und ich bin der
+              lebende Beweis!
+            </p>
+            <a
+              class="card__btn"
+              href="http://www.neuefische.de"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Mehr</a
+            >
+          </div>
+        </section>
+      </div>
+
+      <section id="aboutme" class="about-container">
+        <h2>über mich</h2>
+        <p>
+          Ich bin 31 Jahre alt und wohne in Buxtehude. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Laborum eos adipisci officia.
+          Fugiat mollitia exercitationem nam iure doloremque cupiditate facilis?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quos?
+        </p>
+        <ul class="about-list">
+          <li class="about-list--highlight">2009-2012</li>
+          <li>Ausbildung zum IT-Systemkaufman</li>
+          <li class="about-list--highlight">2013</li>
+          <li>IT-Consultant Concare IT A/S</li>
+          <li class="about-list--highlight">
+            2014-2019
+          </li>
+          <li>IT-Servicedesk Administrator hanseConcept GmbH</li>
+          <li class="about-list--highlight bg-dark">2020</li>
+          <li>Web Developer Bootcamp bei neuefische</li>
+        </ul>
+      </section>
+
+      <section class="social-container">
+        <a
+          href="http://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="img/instagram.png" alt=""
+        /></a>
+        <a
+          href="http://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="img/facebook.png" alt=""
+        /></a>
+        <a
+          href="http://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="img/linkedin.png" alt=""
+        /></a>
+        <a href="http://xing.com" target="_blank" rel="noopener noreferrer"
+          ><img src="img/xing.png" alt=""
+        /></a>
+        <a
+          href="http://www.youtube.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="img/youtube.png" alt=""
+        /></a>
+      </section>
+    </main>
+
+    <footer id="contactme" class="footer-main">
+      <form class="footer-grid">
+        <input checked id="email" type="radio" name="details" />
+        <label for="email"
+          >E-Mail
+          <div>
+            <a href="mailto:myandy@gmx.net"
+              ><span class="fas fa-envelope"></span>myandy@gmx.net</a
+            >
+          </div>
+        </label>
+        <input type="radio" name="details" id="phone" />
+        <label for="phone"
+          >Mobil
+          <div>
+            <a href="tel:+4915118203667"
+              ><i class="fas fa-phone"></i>0151 18203667</a
+            >
+          </div>
+        </label>
+        <input type="radio" name="details" id="adress" />
+        <label for="adress"
+          >Post
+          <span
+            ><i class="fas fa-map-pin"></i>Rübker Straße 11, 21614
+            Buxtehude</span
+          >
+        </label>
+      </form>
+    </footer>
+  </body>
+</html>
