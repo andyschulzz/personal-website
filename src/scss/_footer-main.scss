@@ -21,6 +21,7 @@
     transition: none;
     font-size: 1.1rem;
     cursor: pointer;
+    border: #fff 1px solid;
 
     > * {
       display: none;
@@ -50,9 +51,10 @@
 
   label:hover {
     border: #f1f1f1 1px solid;
+    border-bottom: #e2e2e2 1px solid;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    border-bottom: #e2e2e2 1px solid;
+    margin: 0;
   }
 }
 
