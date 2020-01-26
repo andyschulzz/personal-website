@@ -2,33 +2,23 @@ const footerMailBorder = document.querySelector('[for="email"]')
 const footerMobilBorder = document.querySelector('[for="phone"]')
 const footerAdressBorder = document.querySelector('[for="adress"]')
 
-function footerMailClick() {
-  footerMobilBorder.classList.add('border')
-  footerAdressBorder.classList.add('border')
-}
-
-function footerMobilClick() {
-  footerMailBorder.classList.add('border')
-  footerAdressBorder.classList.add('border')
-}
-
-function footerAdressClick() {
-  footerMailBorder.classList.add('border')
-  footerMobilBorder.classList.add('border')
+function footerBorderAdd(borderone, bordertwo) {
+  borderone.classList.add('border')
+  bordertwo.classList.add('border')
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  footerMailClick()
+  footerBorderAdd(footerMobilBorder, footerAdressBorder)
 })
 
 footerMailBorder.addEventListener('click', () => {
-  footerMailClick()
+  footerBorderAdd(footerMobilBorder, footerAdressBorder)
 })
 
 footerMobilBorder.addEventListener('click', () => {
-  footerMobilClick()
+  footerBorderAdd(footerMailBorder, footerAdressBorder)
 })
 
 footerAdressBorder.addEventListener('click', () => {
-  footerAdressClick()
+  footerBorderAdd(footerMobilBorder, footerMailBorder)
 })

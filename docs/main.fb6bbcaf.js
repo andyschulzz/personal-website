@@ -122,32 +122,22 @@ var footerMailBorder = document.querySelector('[for="email"]');
 var footerMobilBorder = document.querySelector('[for="phone"]');
 var footerAdressBorder = document.querySelector('[for="adress"]');
 
-function footerMailClick() {
-  footerMobilBorder.classList.add('border');
-  footerAdressBorder.classList.add('border');
-}
-
-function footerMobilClick() {
-  footerMailBorder.classList.add('border');
-  footerAdressBorder.classList.add('border');
-}
-
-function footerAdressClick() {
-  footerMailBorder.classList.add('border');
-  footerMobilBorder.classList.add('border');
+function footerBorderAdd(borderone, bordertwo) {
+  borderone.classList.add('border');
+  bordertwo.classList.add('border');
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  footerMailClick();
+  footerBorderAdd(footerMobilBorder, footerAdressBorder);
 });
 footerMailBorder.addEventListener('click', function () {
-  footerMailClick();
+  footerBorderAdd(footerMobilBorder, footerAdressBorder);
 });
 footerMobilBorder.addEventListener('click', function () {
-  footerMobilClick();
+  footerBorderAdd(footerMailBorder, footerAdressBorder);
 });
 footerAdressBorder.addEventListener('click', function () {
-  footerAdressClick();
+  footerBorderAdd(footerMobilBorder, footerMailBorder);
 });
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -177,7 +167,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51137" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63355" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
