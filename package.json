@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/andyschulzz/personal-website#readme",
   "dependencies": {
-    "node-sass": "4.13.1",
+    "node-sass": "7.0.0",
     "parcel-bundler": "1.12.4"
   }
 }
